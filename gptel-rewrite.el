@@ -156,14 +156,12 @@ which see."
                                (memq (aref lang 0) '(?a ?e ?i ?o ?u)))
                           "an" "a")))
         (if (derived-mode-p 'prog-mode)
-            (format (concat "You are %s %s programmer.  "
-                            "Follow my instructions and refactor %s code I provide.\n"
-                            "- Generate ONLY %s code as output, without "
-                            "any explanation or markdown code fences.\n"
-                            "- Generate code in full, do not abbreviate or omit code.\n"
-                            "- Do not produce intermediate text or report on your progress.\n"
-                            "- Do not ask for further clarification, and make "
-                            "any assumptions you need to follow instructions.")
+            (format (concat "You are %s %s programmer. Rewrite %s code.\n"
+                            "Rewrite everything exactly the same "
+                            "except: the required change.\n"
+                            "Do not add explanations.\n"
+                            "Do not add markdown fences.\n"
+                            "Do not ask clarification.")
                     article lang lang lang)
           (concat
            (if (string-empty-p lang)
