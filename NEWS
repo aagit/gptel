@@ -1,5 +1,16 @@
 # -*- mode: org; -*-
 
+* 0.9.9.7-pre
+
+** Breaking changes
+** New models and backends
+
+- OpenAI backend: Add support for =gpt-6-astra=.
+
+** New features and UI changes
+** Notable bug fixes
+
+
 * 0.9.9.6 2026-09-05
 
 ** Breaking changes
