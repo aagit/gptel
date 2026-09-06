@@ -1,9 +1,9 @@
 ;;; gptel.el --- Interact with ChatGPT or other LLMs     -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2023-2025  Karthik Chikmagalur
+;; Copyright (C) 2023-2026  Karthik Chikmagalur
 
 ;; Author: Karthik Chikmagalur <karthik.chikmagalur@gmail.com>
-;; Version: 0.9.9.5
+;; Version: 0.9.9.6
 ;; Package-Requires: ((emacs "27.1") (transient "0.7.8") (compat "30.1.0.0"))
 ;; Keywords: convenience, tools
 ;; URL: https://github.com/karthink/gptel
@@ -188,7 +188,7 @@
 ;; usage.
 
 ;;; Code:
-(defconst gptel-version "0.9.9.5")
+(defconst gptel-version "0.9.9.6")
 
 (declare-function markdown-mode "ext:markdown-mode")
 (declare-function gptel-menu "gptel-transient" nil t)
